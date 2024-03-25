@@ -11,4 +11,3 @@ for i in range(test_case):
     else:
         print('odd')
  
-
