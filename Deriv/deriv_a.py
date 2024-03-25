@@ -35,6 +35,7 @@ def StringChallenge(s):
                     while j < len(sequence) and sequence[j] == char:
                         j += 1
             i += 1
+            
 
         return i == len(pattern) and j == len(sequence)
 
