@@ -6,8 +6,11 @@ def count_zeros(n):
     return count
 
 
+def main():
+    test_case = int(input())
+    for _ in range(test_case):
+        n = int(input())
+        print(count_zeros(n))
 
 
-
-n = 100
-print(count_zeros(n))
+main()
