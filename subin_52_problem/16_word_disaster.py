@@ -11,7 +11,8 @@ def main():
 
         words = input().split()
         for word in words:
-            print(word[::-1], end=" ")
+            # print(word[::-1], end=" ")
+            print("".join(reversed(word)), end=" ")
         print()
 
 

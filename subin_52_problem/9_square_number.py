@@ -5,5 +5,6 @@ def main():
         number = int(input())
         result = 'YES' if int(number**0.5)**2 == number else 'NO' 
         print(result)
+        # pow(number, 0.5)
 
 main()

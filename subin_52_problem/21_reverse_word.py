@@ -14,5 +14,9 @@ def main():
         text = input()
         print("".join(reversed(text)))
 
+        for i in range(len(text)-1, -1, -1):
+            print(text[i], end="")
+        print()
+
 
 main()
